@@ -1,0 +1,16 @@
+{
+  "name": "ts-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ts-rest/core": "^3.33.0",
+    "zod": "^3.22.4"
+  }
+}
