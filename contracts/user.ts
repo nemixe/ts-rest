@@ -9,6 +9,7 @@ const PostSchema = z.object({
   id: z.string(),
   name: z.string(),
   age: z.number(),
+  phone: z.number().optional(),
 });
 
 export const userContract = c.router({
@@ -21,6 +22,7 @@ export const userContract = c.router({
     body: z.object({
       name: z.string(),
       age: z.number(),
+      phone: z.number().optional(),
     }),
     summary: "Create a user",
   },
